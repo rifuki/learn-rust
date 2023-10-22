@@ -1,0 +1,12 @@
+Owership is a set of rules that govern how rust programs manage memory.
+
+Memory consists of: stack and heap.
+
+The stack and heap are parts of memory available for a program's code to use from runtime.
+
+With ownership, "memory safety" is guaranteed without the need for a garbage collector.
+
+Ownership rules:
+1. Every value in Rust has a variable known as the "owner"
+2. There can be only one owner at a time
+3. When the owner goes out of scope, its value is dropped

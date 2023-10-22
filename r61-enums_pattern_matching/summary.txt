@@ -1,0 +1,3 @@
+enum (enumeration) is data types that has one of several different value variants.
+
+Variant is set of possibilities that an enums has.

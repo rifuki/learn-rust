@@ -1,0 +1,1 @@
+A special data type that allows us to name and wrap or package several values that form a single meangingful unit or group.
